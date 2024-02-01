@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(228, 228, 154) ;
+    letter-spacing: 2px;
+}
+html,body{
+    height: 100%;
+width: 100%;    
+font-family: Dragon Hunter;
+}
+
+body{
+    overflow: hidden;
+}
+#screen{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(75, 9, 9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    transition: all ease-in 0.5s;
+}
+h1,h2{
+font-weight: 300;
+font-size: 70px;
+}
+
+button{
+    margin-top: 70px;
+    font-size: 20px;
+    padding: 25px 35px;
+    background-color: transparent;
+    border: 2px solid;
+    transition: all ease 0.2s;
+    cursor: pointer;
+}
+.elem{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+
+
+}
+#elem-container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(228, 228, 154);
+    padding: 10px;
+    align-items: center;
+    cursor: grab;
+    
+}
+#elem-container img{
+    height: 100px;
+    object-fit: contain;
+    width: 110px;
+
+}
+#scoreboard{
+    height: 60px;
+    width: 100%;
+    top: 0%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    border-bottom: 2px solid rgb(228, 228, 154);
+   
+
+}
+#scoreboard h2{
+    padding: 20px;
+    font-size: 30px;
+}
+button:hover{
+    background-color:  rgb(228, 228, 154) ;
+    color:rgb(75, 9, 9) ;
+}
+
+#elem-container:hover{
+    background-color:rgb(228, 228, 154) ;
+   color:rgb(75, 9, 9) ;
+}
+#elem-container:hover h4{
+    color:rgb(75, 9, 9) ;
+}
+
+button:active{
+    scale: 0.9;
+}
+#elem-container:active{
+    scale: 0.9;
+    cursor: grabbing;
+}
+#playground img{
+    height: 200px;
+}

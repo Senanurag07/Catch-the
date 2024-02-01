@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #99BC85;
+}
+#div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#img1{
+height: 450px;
+width: 300px;
+}
+#img2{
+    height: 450px;
+    width: 300px;
+}
+button{
+    padding: 10px 20px;
+    font-weight: 200;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #436850;
+    color: white;
+}
